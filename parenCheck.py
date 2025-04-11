@@ -1,4 +1,5 @@
 def is_balanced(s):
+    # This function finds if a string is balanced or not
     stack = []
     closing_bracs = {'(': ')', '{': '}', '[': ']'}
     
