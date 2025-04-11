@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     defaults:
-      working-directory: .
+      working-directory: ./
 
     strategy:
       matrix:
